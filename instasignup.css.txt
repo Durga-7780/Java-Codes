@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+form{
+	width:24%;
+	height:80vh;
+	border:1px solid #e0e0e0;
+	border-radius:6px;
+	margin:3% 38%;
+	transition:all 1s ease-out;
+	text-align:center;
+}
+.heading{
+	font-size:2.2em;
+}
+.pre{
+	margin-left:30px;
+	font-size:14px;
+	color:#424242;
+	line-height:25px;
+}
+#facebtn{
+	font-size:large;
+	color:white;
+	font-weight:bold;
+	background-color:#0080ff;
+	text-align:center;
+	border-radius:8px;
+	border:none;
+	width:77%;
+	padding:7px 35px;
+}
+.starthr{
+	width:25%;
+	margin-left:57px;
+}
+.endhr{
+	width:25%;
+	position:relative;
+	margin-left:220px;
+	margin-top:-74.2px;
+}
+.or{
+	font-size:18px;
+	margin-top:-35px;
+	color:#636363;
+	font-weight:400px;
+}
+.head1{
+	font-size:16px;
+	color:#777777;
+	line-height:18px;
+}
+a{
+	text-decoration:none;
+	color:#c184ff;
+}
+input{
+	width:73%;
+	padding:10px 5px;
+	border-radius:6px;
+	font-size:medium;
+	background-color:#f9f9f9;
+	outline:none;
+	border:1px solid #9a9a9a;
+	margin-left:10px;
+	margin-bottom:4px;
+}
+#signupbtn{
+	font-size:large;
+	color:white;
+	font-weight:bold;
+	background-color:#79bcff;
+	text-align:center;
+	border-radius:8px;
+	border:none;
+	width:75%;
+	font-weight:bold;
+	padding:7px 35px;
+}
+#signupbtn:hover{
+	background-color:#0080ff;
+}
+.footform{
+	margin-top:-55px;
+	height:7vh;
+	padding-top:0.5%;
+	width:24%;
+}
+.login{
+	color:#409fff;
+	font-weight:bold;
+}
+.getapp{
+	font-size:large;
+	margin:-2.5% 45%;
+	transition:all 1s ease-out;
+}
+.loading{
+	border:7px solid red;
+	padding:40px 2px;
+	border-radius:50px;
+	margin-top:-480px;
+	margin-left:46.6%;
+	filter:blur(1px);
+	width:5%;
+	transition:all 3s ease;
+	border-color:black black red black;
+	animation:load 1s linear infinite;
+}
+
+@keyframes load {
+    to{
+    transform:rotate(360deg);
+    }
+}
