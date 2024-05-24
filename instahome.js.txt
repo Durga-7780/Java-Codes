@@ -15,6 +15,8 @@ var fillbook=document.getElementById("fillbook");
 var emptybook=document.getElementById("emptybook");
 var fillbook1=document.getElementById("fillbook1");
 var emptybook1=document.getElementById("emptybook1");
+var imgheartanimie1=document.getElementById("aniheart1");
+var imgheartanimie2=document.getElementById("aniheart2");
 
 heartempty.onclick=()=>{
 		heartempty.style.display='none';
@@ -55,19 +57,27 @@ imgclick1.ondblclick=()=>{
 		likecount.textContent=count+1;
 		imgcli=true;
 	}
+	 imgheartanimie1.style.display='block';
+		setTimeout(()=>{
+			imgheartanimie1.style.display='none';
+		},2000);
 }
 
 imgclick2.ondblclick=()=>{
 	if(!imgcli1){
 		heartempty1.style.display='none';
 		heartfill1.style.display='inline';
+		
 		heartfill1.style.color='red';
 		var count=parseInt(likecount1.textContent);
 		likecount1.textContent=count+1;
 		imgcli1=true;
 	}
+     imgheartanimie2.style.display='block';
+		setTimeout(()=>{
+			imgheartanimie2.style.display='none';
+		},2000);
 }
-
 emptybook.onclick=()=>{
 	fillbook.style.display='inline';
 	emptybook.style.display='none';

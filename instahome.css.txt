@@ -267,3 +267,15 @@ nav{
 	margin-top:-3px;
 	margin-left:370px;
 }
+#aniheart2{
+	display:none;
+	margin:-215px 650px;
+	position:absolute;
+	color:red;
+}
+#aniheart1{
+	display:none;
+	margin:-980px 655px;
+	position:absolute;
+	color:red;
+}
